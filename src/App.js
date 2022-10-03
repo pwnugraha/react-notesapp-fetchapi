@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { getUserLogged, putAccessToken } from './utils/network-data';
+import dataContent from './utils/content-data';
 import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import ArchivePage from './pages/ArchivePage';
@@ -12,7 +13,6 @@ import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import ThemeContext from './contexts/ThemeContext';
 import LocaleContext from './contexts/LocaleContext';
-import dataContent from './utils/content-data';
 
 class App extends React.Component {
   constructor(props) {
