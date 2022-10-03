@@ -96,6 +96,8 @@ class HomePage extends React.Component {
 
 HomePage.propTypes = {
     onNavigate: PropTypes.func.isRequired,
+    keywordChange: PropTypes.func.isRequired,
+    defaultKeyword: PropTypes.string,
 }
 
 HomePage.contextType = LocaleContext;

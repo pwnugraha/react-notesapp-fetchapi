@@ -85,6 +85,7 @@ ArchivePage.contextType = LocaleContext;
 
 ArchivePage.propTypes = {
     keywordChange: PropTypes.func.isRequired,
+    defaultKeyword: PropTypes.string,
 }
 
 export default ArchivePageWrapper

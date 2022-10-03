@@ -70,6 +70,7 @@ class DetailPage extends React.Component {
 
 DetailPage.propTypes = {
     onNavigate: PropTypes.func.isRequired,
+    id: PropTypes.string.isRequired,
 }
 
 export default DetailPageWrapper;
