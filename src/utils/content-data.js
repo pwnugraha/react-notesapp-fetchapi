@@ -1,0 +1,46 @@
+const contentData = [];
+contentData["id"] = {
+    app_name: "Aplikasi Catatan",
+    app_loading: "Mohon tunggu ...",
+    app_link_archive: "Arsip",
+    login_title: "Yuk, login untuk menggunakan aplikasi.",
+    login_foot: "Belum punya akun?",
+    login_foot_link: "Daftar di sini.",
+    register_title: "Isi form untuk mendaftar akun.",
+    register_foot: "Sudah punya akun?",
+    register_foot_link: "Login di sini.",
+    homepage_title: "Catatan Aktif",
+    homepage_searchpl: "Masukkan kata kunci judul ...",
+    homepage_loading: "Memuat catatan ...",
+    homepage_empty_item: "Catatan kosong.",
+    archivepage_title: "Catatan Arsip",
+    archivepage_searchpl: "Masukkan kata kunci judul ...",
+    archivepage_loading: "Memuat arsip ...",
+    archivepage_empty_item: "Arsip kosong.",
+    noteinput_title: "Masukkan Judul ...",
+    noteinput_body: "Masukkan detail catatan ...",
+}
+
+contentData["en"] = {
+    app_name: "Note App",
+    app_loading: "Please wait ...",
+    app_link_archive: "Archive",
+    login_title: "Let's login to use this App.",
+    login_foot: "Don't have an account yet?",
+    login_foot_link: "Register here.",
+    register_title: "Fill the form to register an account.",
+    register_foot: "Already have account?",
+    register_foot_link: "Login here.",
+    homepage_title: "Active Note",
+    homepage_searchpl: "Enter the keyword ...",
+    homepage_loading: "Loading notes ...",
+    homepage_empty_item: "Notes empty.",
+    archivepage_title: "Archive Note",
+    archivepage_searchpl: "Enter the keyword ...",
+    archivepage_loading: "Loading archives ...",
+    archivepage_empty_item: "Archives empty.",
+    noteinput_title: "Enter Title ...",
+    noteinput_body: "Enter note detail ...",
+}
+
+export default contentData
